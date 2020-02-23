@@ -9,6 +9,7 @@
     android:orientation="vertical">
 
     <EditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Type Here"
@@ -16,6 +17,7 @@
         android:textSize="30sp"/>
 
     <Button
+        android:id="@+id/btnSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Send"
@@ -26,6 +28,7 @@
         />
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Text"
